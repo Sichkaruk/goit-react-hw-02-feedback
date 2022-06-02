@@ -2,13 +2,17 @@
 width: 350px;
 border: 1px solid var(--border-color);
 border-radius: 12px;
-
 margin-bottom: 30px;
+}
+
+.section:last-child{
+ margin-bottom: 0;
 }
 
 .title{
 display: flex;
 justify-content: center;
+margin-bottom: 17px;
 
 font-size: 30px;
 }
