@@ -1,0 +1,24 @@
+.list{
+     ;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.text{
+    margin: 0;
+    font-weight: 400;
+    font-size: larger;
+}
+.subTitle{
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 15px;
+
+    font-weight: 600;
+    font-size: large;
+}

@@ -3,9 +3,6 @@ display: flex;
 justify-content: space-between;
 }
 
-.item{
-    
-}
 
 .button{
          text-decoration: none;
@@ -21,7 +18,7 @@ justify-content: space-between;
         box-shadow: 0 0 20px rgb(97 173 218 / 10%);
         transition: .5s;
         cursor: pointer;
-    }
+}
 
 
 .button:hover {
