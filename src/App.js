@@ -11,14 +11,11 @@ class App extends Component {
     neutral: 0,
     bad: 0
 }
-  updateFeedbackCount = option => {
-    this.setState(prevState => {
-      const feedbackOption = option.toLowerCase();
-      return {
-        [feedbackOption]: prevState[feedbackOption] + 1,
-      };
-    });
-  };
+
+
+    updateFeedbackCount = (k) => {
+    this.setState((state) => ({ [k]: state[k] + 1 }));
+    };
   
   render() {
   
